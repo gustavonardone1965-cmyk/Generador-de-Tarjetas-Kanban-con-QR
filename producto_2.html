@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirigiendo a la ficha…</title>
+<script>location.replace("index.html" + location.search);</script>
+</head>
+<body style="font:16px system-ui,sans-serif;padding:24px">
+<p>Abriendo la ficha del producto… Si no se abre, <a id="l" href="index.html">tocá acá</a>.</p>
+<script>document.getElementById("l").href = "index.html" + location.search;</script>
+</body>
+</html>
